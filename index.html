@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RGB Guessing Game</title>
+	<link rel="stylesheet" type="text/css" href="colorGame.css">
+	<link rel="stylesheet" type="text/css" href="http://localhost/fonts/stylesheet.css">
+</head>
+<body>
+
+<h1>FOZ's
+	<br>
+	<span id="colorDisplay">RGB</span>
+	<br>Colour Game
+</h1>
+<div class="containspan">
+	<div class="span">
+		<form class="form">
+			<input type="radio" name="colors" id="colors_radio" value="colors_radio">
+				<label>Colours</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="radio" name="colors" id="grayscale_radio" value="grayscale_radio">	
+				<label>Grayscale</label>	
+		</form>
+	</div>
+</div>
+<div class="containspan">
+	<div class="span">
+		<span><button id="button">New Colours</button></span>
+		<span class="span" id="correct"></span>
+		<span><button class="button button_easy">Easy</button></span>
+		<span><button class="button button_hard">Hard</button></span>
+	</div>
+</div> 
+
+<div id="container">
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+</div>
+
+
+<script type="text/javascript" src="colorGame.js"></script>
+</body>
+</html>

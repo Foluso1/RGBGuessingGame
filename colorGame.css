@@ -1,0 +1,111 @@
+body {
+	background-color: #232323;
+}
+
+.square {
+	width: 30%;
+	background: transparent;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 100px;
+}
+
+#container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+h1 {
+	background-color: #1F5F96;
+	color: white;
+	text-align: center;
+  	margin: 5px auto;
+	width: 100%;
+	height: auto;
+	line-height: 1.2;
+	font-size: 200%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: montserratblack, serif;
+}
+
+#correct.span {
+	/*margin: 0 10%;
+	display: flex;
+	justify-content: center;*/
+	font-family: fjalla_oneregular, cursive;
+	padding-top: 1px;
+	text-align: center;
+/*	font-size: 90%;
+	letter-spacing: 0.8px; */
+}
+
+.form {
+	font-family: fjalla_oneregular, cursive;
+	padding-top: 1px;
+	text-align: center;
+	color: #1F5F96;
+}
+
+.form_gray {
+	color: #000000;
+}
+
+.span {
+	width: 30%;
+}
+
+span#colorDisplay {
+	text-transform: uppercase;
+	font-family: fjalla_oneregular, cursive;
+	font-size: 150%;
+}
+
+
+div.span {
+	display: flex;
+  	justify-content: center;
+	width: 60%;
+	margin: 0px auto;
+	margin-bottom: 5px;
+	min-height: 22px;
+}
+
+div.containspan {
+	background-color: #ffffff;
+}
+
+.containspan_gray {
+	background-color: #ffffff !important;
+	color: #000000;
+}
+
+.button_gray {
+	color: #000000;
+}
+
+.button_gray:hover {
+	color: #ffffff;
+	background-color: #000000;
+}
+
+button {
+	background-color: transparent;
+	color: #1F5F96;
+	outline: none;
+	border: none;
+	/*border-left: 1px solid black;
+	border-right: 1px solid black;*/
+	font-family: fjalla_oneregular, cursive;
+	font-size: 100%;
+	letter-spacing: 0.8px; 
+	height: 22px;
+}
+
+button:hover {
+	background-color: #1F5F96;
+	color: white;
+	transition: background-color 300ms ease-in,
+				color 300ms ease-in;
+}
